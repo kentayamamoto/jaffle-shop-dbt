@@ -57,6 +57,7 @@ semantic_models:
     measures:
       - name: customers
         description: Count of unique customers
+        expr: customer_id
         agg: count_distinct
       - name: count_lifetime_orders
         description: Total count of orders per customer.
